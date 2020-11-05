@@ -17,8 +17,8 @@ from matplotlib import pyplot as plt
 import cv2
 
 #find source path and dest path, list every items in the source path
-src_path = r'C:\Users\minhhala\Documents\Data\Data Science\Image Processing\1007\MI03\SI-SUB-B-DMG'
-dest_path = r'C:\Users\minhhala\Documents\Data\Data Science\Data_augment\1007\MI03\SI-SUB-B-DMG'
+src_path = r'source path'
+dest_path = r'destination path'
 names = os.listdir(src_path)
 print(names[0])
 print(os.path.join(src_path, names[3]))
