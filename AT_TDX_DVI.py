@@ -10,12 +10,12 @@ import csv
 import numpy as np
 import pandas as pd
 
-Image_Folder = '\\\\Vnatshfs.intel.com\\vnatanalysis$\\MAOATM\\VN\\Applications\\Finish\\Machine Learning\\CNP\\Image\\1007\\'
-# Server1 = "\\\\SSFILE1.SS.INTEL.COM\\"
-# Server2 = "\\\\SSFILE2.SS.INTEL.COM\\"
+Image_Folder = 'source folder directory to saved images'
+# Server1 = "server1"
+# Server2 = "server2"
 
 #read file csv
-df = pd.read_csv(r'\\Vnatshfs.intel.com\vnatanalysis$\MAOATM\VN\Applications\Finish\Machine Learning\CNP\1007_Filtered_Image.csv')
+df = pd.read_csv(r'read the csv file')
 Lot_List = list(set(df['lot']))
 #read file csv to df var
 #creatr Lot_List = 
